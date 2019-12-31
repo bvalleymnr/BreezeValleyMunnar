@@ -104,7 +104,11 @@ textarea.form-control {
       z-index: 100; }
       .site-header.scrolled .site-logo a {
         color: #000; }
-
+        .site-header.scrolled .site-logo p {
+          color: #000; }
+          .site-header.scrolled .site-logo em {
+            color: #000; }
+  
 .menu-open {
   position: relative; }
   .menu-open .site-header {
@@ -114,6 +118,8 @@ textarea.form-control {
     z-index: 100; }
     .menu-open .site-logo a {
       color: #000; }
+      .menu-open .site-logo p {
+        color: #000; }
   .menu-open .site-navbar {
     border: 10px solid #f8f9fa; }
 
@@ -201,12 +207,7 @@ textarea.form-control {
     left: 0;
     bottom: 0;
     right: 0; }
-    #coverPic{
-      background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-    }
+   
   .site-hero.inner-page {
     height: 50vh;
     min-height: 700px; }
@@ -252,10 +253,11 @@ background-size: cover;
 
 .site-menu-toggle {
   top: 0;
-  float: right;
+
   width: 40px;
   height: 45px;
   position: relative;
+  float: right;
   margin: 0px auto;
   z-index: 200;
   -webkit-transform: rotate(0deg);
@@ -268,7 +270,9 @@ background-size: cover;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
-  margin-right: 40px; }
+  margin-right: 40px;
+  /* margin: 20px 20px 20px 1200px; */
+ }
   .site-menu-toggle span {
     display: block;
     position: absolute;
